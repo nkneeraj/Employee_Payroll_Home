@@ -76,7 +76,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
      var year = document.getElementById("year").value;
       employee.note = document.getElementById("notes").value;
       employee.startDate = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
-    
+      alert(employee.toString());
      return employee;
     }
     
